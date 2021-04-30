@@ -11,4 +11,4 @@ Several cleaning steps were required for each dataset in order to get them neat 
 
 # Load
 
-Cleaned datasets were loaded into a new database utilizing PostgreS, queries utilizing SQL to analyze and summarize
+Cleaned datasets were loaded into a new database utilizing PostgreS, queries made with SQL to analyze and summarize
