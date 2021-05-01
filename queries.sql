@@ -1,4 +1,4 @@
-
+'''Create tables'''
 create table auction(
 	id INT PRIMARY KEY,
 	price INT,
@@ -53,6 +53,7 @@ create table msrp(
 	MSRP FLOAT
 );
 
+'''Ask questions, make queries'''
 '''Shows which brand made the most money across all years '''
 SELECT brand, 
 SUM (price) as p
@@ -67,4 +68,31 @@ FROM msrp
 WHERE msrp.msrp >= 10000
 GROUP BY brand
 ORDER BY m asc;
+
+'''which brand had the most cars at auction'''
+select brand,
+COUNT (brand) as b
+FROM auction
+GROUP BY brand
+ORDER BY b desc;
+
+'''see the msrp from appropriate table and check specs'''
+select * from msrp
+WHERE brand= 'acura'
+
+'''lets see which brands have the best resale value'''
+SELECT brand,
+AVG (resale_value) as r
+FROM sales
+GROUP BY brand
+ORDER BY r desc;
+
+'''what are the most popular brands'''
+select * from msrp
+ORDER BY popularity asc;
+
+'''what cars have the highest horsepower'''
+select * from msrp
+ORDER BY engine_hp desc;
+
 
