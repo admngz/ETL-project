@@ -1,4 +1,5 @@
 # ETL-project
+Anthonette Dominguez, Steve Meyer
 Project Proposal:
 We gathered data to compare car manufacturer MSRP with used car prices. We were curious of what impacts a car's price new or old. We focused on cars that were built in 1993-2017. There were questions that helped drive the exploration of data such as:
     What are the factors that affect price?
