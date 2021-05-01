@@ -13,7 +13,7 @@ With the data that we accumlated, one is able to see which car manufacturer was 
 
 
 # E - EXTRACT
-The data that we extracted from were from these two sources:
+The data that we extracted from were from these three sources:
  - https://www.kaggle.com/doaaalsenani/usa-cers-dataset
  - https://www.kaggle.com/gagandeep16/car-sales
  - https://www.kaggle.com/CooperUnion/cardataset
